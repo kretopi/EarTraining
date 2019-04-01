@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.eartraining.MainActivity">
+
+<Button
+    android:id="@+id/Unison"
+    android:layout_width="151dp"
+    android:layout_height="48dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:text="@string/unison"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.034"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.319" />
+
+<Button
+    android:id="@+id/MinorSecond"
+    android:layout_width="151dp"
+    android:layout_height="48dp"
+    android:layout_marginStart="16dp"
+    android:text="@string/minor_second"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/Unison" />
+
+<Button
+    android:id="@+id/MajorSecond"
+    android:layout_width="151dp"
+    android:layout_height="55dp"
+    android:layout_marginBottom="141dp"
+    android:layout_marginStart="16dp"
+    android:text="@string/major_second"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/MinorSecond"
+    app:layout_constraintVertical_bias="0.0" />
+
+<Button
+    android:id="@+id/MinorThird"
+    android:layout_width="151dp"
+    android:layout_height="51dp"
+    android:layout_marginStart="16dp"
+    android:text="@string/minor_third"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/MajorSecond" />
+
+<Button
+    android:id="@+id/MajorThird"
+    android:layout_width="151dp"
+    android:layout_height="50dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="16dp"
+    android:text="@string/major_third"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/MinorThird"
+    app:layout_constraintVertical_bias="0.0" />
+
+<Button
+    android:id="@+id/PerfectFourth"
+    android:layout_width="151dp"
+    android:layout_height="50dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="16dp"
+    android:text="@string/perfect_fourth"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/MajorThird"
+    app:layout_constraintVertical_bias="0.0" />
+
+<Button
+    android:id="@+id/Tritone"
+    android:layout_width="158dp"
+    android:layout_height="46dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:text="@string/tritone"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.317" />
+
+<Button
+    android:id="@+id/PerfectFifth"
+    android:layout_width="158dp"
+    android:layout_height="46dp"
+    android:layout_marginEnd="8dp"
+    android:text="@string/perfect_fifth"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/Tritone" />
+
+<Button
+    android:id="@+id/MinorSixth"
+    android:layout_width="158dp"
+    android:layout_height="48dp"
+    android:layout_marginEnd="8dp"
+    android:text="@string/minor_sixth"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/PerfectFifth" />
+
+<Button
+    android:id="@+id/MajorSixth"
+    android:layout_width="158dp"
+    android:layout_height="52dp"
+    android:layout_marginEnd="8dp"
+    android:text="@string/major_sixth"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/MinorSixth" />
+
+<Button
+    android:id="@+id/MinorSeventh"
+    android:layout_width="158dp"
+    android:layout_height="52dp"
+    android:layout_marginEnd="8dp"
+    android:text="@string/minor_seventh"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/MajorSixth" />
+
+<Button
+    android:id="@+id/MajorSeventh"
+    android:layout_width="158dp"
+    android:layout_height="52dp"
+    android:layout_marginEnd="8dp"
+    android:text="@string/major_seventh"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/MinorSeventh" />
+
+<Button
+    android:id="@+id/PrefectOctave"
+    android:layout_width="355dp"
+    android:layout_height="48dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:text="@string/prefect_octave"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.538"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/PerfectFourth" />
+
+<Switch
+    android:id="@+id/Mode"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:text="@string/melodic"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintLeft_toRightOf="@+id/RandomInterval"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.033" />
+
+<TextView
+    android:id="@+id/Tempo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="-8dp"
+    android:text="@string/tempo"
+    app:layout_constraintBottom_toTopOf="@+id/TempoSeekBar"
+    android:layout_marginRight="8dp"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginLeft="8dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintHorizontal_bias="0.086" />
+
+<SeekBar
+    android:id="@+id/TempoSeekBar"
+    android:layout_width="358dp"
+    android:layout_height="24dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="13dp"
+    android:layout_marginTop="8dp"
+    android:max="4000"
+    android:progress="1000"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.235" />
+
+<Button
+    android:id="@+id/RandomInterval"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="-1dp"
+    android:text="@string/random_interval"
+    app:layout_constraintBottom_toTopOf="@+id/Repeat"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/Repeat"
+    android:layout_width="144dp"
+    android:layout_height="44dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="16dp"
+    android:text="@string/repeat"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.124" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/score"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <TextView
+        android:id="@+id/isCorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/isCorrect"
+        app:layout_constraintBottom_toBottomOf="@+id/PrefectOctave"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Score"
+        app:layout_constraintVertical_bias="0.004" />
+
+</android.support.constraint.ConstraintLayout>

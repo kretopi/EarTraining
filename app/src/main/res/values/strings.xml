@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">earTraining</string>
+    <string name="unison">Unison</string>
+    <string name="tritone">Tritone</string>
+    <string name="tempo">Tempo</string>
+    <string name="melodic">Melodic</string>
+    <string name="prefect_octave">Prefect Octave</string>
+    <string name="major_seventh">Major Seventh</string>
+    <string name="minor_seventh">Minor Seventh</string>
+    <string name="major_sixth">Major Sixth</string>
+    <string name="minor_sixth">Minor Sixth</string>
+    <string name="random_interval">Random Interval</string>
+    <string name="perfect_fifth">Perfect Fifth</string>
+    <string name="perfect_fourth">Perfect Fourth</string>
+    <string name="major_second">Major Second</string>
+    <string name="minor_third">Minor Third</string>
+    <string name="minor_second">Minor Second</string>
+    <string name="score">Score</string>
+    <string name="isCorrect">Is Correct</string>
+    <string name="major_third">Major Third</string>
+    <string name="repeat">Repeat</string>
+</resources>
